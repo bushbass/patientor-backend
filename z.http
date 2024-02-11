@@ -4,4 +4,11 @@ http://localhost:3000/ping
 http://localhost:3000/api/diagnoses/
 
 ###
-http://localhost:3000/api/patients/
+http://localhost:3000/api/patients/d2773598-f723-11e9-8f0b-362b9e155667
+
+
+###
+POST http://localhost:3000/api/diaries/ HTTP/1.1
+
+content-type: application/json
+{ "date":"1/2/34","weather":"sunny","visibility":"great","comment":"here is a comment about the flight"}
