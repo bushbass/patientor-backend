@@ -11,8 +11,4 @@ http://localhost:3000/api/patients/d2773598-f723-11e9-8f0b-362b9e155667
 POST http://localhost:3000/api/patients/ HTTP/1.1
 
 content-type: application/json
-{"name":"bob jones"
-    "dateOfBirth": "2/3/45";
-    "ssn": "34057234534";
-    "gender": "male";
-    "occupation": "surfer dude"}
+{"name":"bob jones",    "dateOfBirth": "2/3/45",    "ssn": "34057234534",    "gender": "male",    "occupation": "surfer dude"}
