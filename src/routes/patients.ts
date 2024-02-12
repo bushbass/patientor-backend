@@ -34,6 +34,7 @@ router.post('/', (req, res) => {
         occupation,
         ssn
     });
+    console.log(newPatient);
     res.json(newPatient);
 });
 

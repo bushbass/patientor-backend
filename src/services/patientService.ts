@@ -28,11 +28,11 @@ const findById = (id: string): Patient | undefined => {
 };
 
 const addPatient = (
-   entry: NewPatient):Patient => {
+   patient: NewPatient):Patient => {
 
     const newPatient = {
         id:uuid(),
-       ...entry
+       ...patient
     };
 
     patients.push(newPatient);
